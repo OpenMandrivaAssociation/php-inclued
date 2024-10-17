@@ -9,7 +9,7 @@ Version:	0.1.3
 Release:	3
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/inclued/
+URL:		https://pecl.php.net/package/inclued/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Patch0:         inclued-0.1.3-php5.5.patch
 Requires(pre): rpm-helper
