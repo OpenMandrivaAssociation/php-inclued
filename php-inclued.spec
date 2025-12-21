@@ -14,6 +14,11 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Patch0:         inclued-0.1.3-php5.5.patch
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 
